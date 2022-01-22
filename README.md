@@ -1,15 +1,30 @@
-# Basic Sample Hardhat Project
+# NFT Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project is like marketplace for the digital assets , where any user can create his digital assets and can sell it. Here we are using ***ipfs-http-client*** library to store the digital assets.Anyone can also purchase from this platform . Payment can be done using cryptocurrency wallets like Metamask,Coinbase Wallet etc.
 
-Try running some of the following tasks:
+#### Technology used
+> Solidity <br>
+> Hardhat <br>
+> Next js <br>
+> Ethers js <br>
+> Web3Modal <br>
+> Tailwind Css 
 
-```shell
-npx hardhat accounts
+
+#### To run the code locally 
+``` 
+npm install
+npm run dev
+```
+
+
+
+#### For run,test and deploy code on localhost:
+> First install Hardhat
+
+```
 npx hardhat compile
-npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+node scripts/deploy.js
 ```
