@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-active {
+      @apply bg-black text-white p-2 rounded-lg;
+    }
+    .nav {
+      @apply text-gray-700  hover:bg-black hover:text-white p-2 rounded-lg;
+    }
+  }
